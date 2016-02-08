@@ -1,5 +1,16 @@
-	header>div{
+	header{
+		width: 900px;
+		background-color:#EBECE4;
+	}
+	#header_menu{
 		background-color:#484545;
 		height: 45px;
-		padding: 4px;
+		padding: 4px 100px;
+	}
+	#header_logo{
+		text-align: center;
+		
+	}
+	#header_logo>img{
+		margin: 10px;
 	}
