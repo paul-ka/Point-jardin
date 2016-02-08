@@ -14,3 +14,13 @@
 	#header_logo>img{
 		margin: 10px;
 	}
+
+	footer{
+		height: 100px;
+		background-color: #484554;
+	}
+
+	.new{
+		text-decoration: underline;
+		color: #78BC43;	
+	}
