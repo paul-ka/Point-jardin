@@ -3,3 +3,13 @@
 		height: 45px;
 		padding: 4px;
 	}
+
+	footer{
+		height: 100px;
+		background-color: #484554;
+	}
+
+	.new{
+		text-decoration: underline;
+		color: #78BC43;	
+	}
