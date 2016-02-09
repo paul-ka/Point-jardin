@@ -37,9 +37,12 @@ footer{
 .nav-pills > li.active > a {
   background-color:#78BC43;
 }
-
-.slider
+.youtube{
+	padding: 12%;
+}
+.slider, section
 {
 	margin-top: 1%;
+
 }
 
