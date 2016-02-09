@@ -1,26 +1,38 @@
-	header{
-		width: 900px;
-		background-color:#EBECE4;
-	}
-	#header_menu{
-		background-color:#484545;
-		height: 45px;
-		padding: 4px 100px;
-	}
-	#header_logo{
-		text-align: center;
-		
-	}
-	#header_logo>img{
-		margin: 10px;
-	}
+header, nav{
+	width: 900px;
+}
+#header_menu{
+	background-color:#484545;
+	height: 45px;
+	padding: 4px;
+}
+#header_logo{
+	background-color:#EBECE4;
+}
+#header_logo img{
+	padding-top: 10px;
+}
+#header_f{
+	padding:0px 10px;
+}
+#header_like{
+	color:#78BC43;
+	font-size:0.9em;
+	text-align:center;
+}
 
-	footer{
-		height: 100px;
-		background-color: #484554;
-	}
+footer{
+	height: 100px;
+	background-color: #484554;
+}
 
-	.new{
-		text-decoration: underline;
-		color: #78BC43;	
-	}
+.new{
+	text-decoration: underline;
+	color: #78BC43;	
+}
+.nav-pills > li > a {
+  font-size:0.8em;
+}
+.nav-pills > li.active > a {
+  background-color:#78BC43;
+}
