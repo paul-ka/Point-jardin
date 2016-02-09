@@ -1,16 +1,15 @@
-header, nav{
-	width: 900px;
-}
 #header_menu{
 	background-color:#484545;
 	height: 45px;
 	padding: 4px;
 }
-#header_logo{
+#header_logo, #mon_nav{
 	background-color:#EBECE4;
+
 }
 #header_logo img{
 	padding-top: 10px;
+	width: 100%;
 }
 #header_f{
 	padding:0px 10px;
@@ -20,7 +19,9 @@ header, nav{
 	font-size:0.9em;
 	text-align:center;
 }
-
+nav ul{ 
+	margin-left: 20px;
+}
 footer{
 	height: 100px;
 	background-color: #484554;
@@ -36,3 +37,9 @@ footer{
 .nav-pills > li.active > a {
   background-color:#78BC43;
 }
+
+.slider
+{
+	margin-top: 1%;
+}
+
