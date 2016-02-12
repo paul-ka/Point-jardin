@@ -12,7 +12,10 @@
 	width: 100%;
 }
 #header_f{
-	padding:0px 10px;
+	padding: 0px 10px;
+	width: 46px;
+	height: 26px;
+	
 }
 #header_like{
 	color:#78BC43;
@@ -25,11 +28,19 @@ nav ul{
 footer{
 	height: 100px;
 	background-color: #484554;
+	text-align: center;
+	color:white;
+	padding-top:10px;
 }
-
-.new{
-	text-decoration: underline;
+.vert{
 	color: #78BC43;	
+
+}
+.new{
+}
+.new h2{
+	text-align: center;
+	text-decoration: underline;
 }
 .nav-pills > li > a {
   font-size:0.8em;
@@ -45,4 +56,50 @@ footer{
 	margin-top: 1%;
 
 }
+#mon_slide{
+	position: relative;
+    width: 400px;
+    height: 248px;
+    margin-left:auto;
+    margin-right:auto;
+	margin-bottom: 20px ;
 
+}
+#mon_img{
+	position: absolute;
+    width: 400px;
+    height: 248px;
+    margin-left:auto;
+    margin-right:auto;
+    background: url(im.jpg) 0 0;
+	-webkit-animation-name: mon_slide;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease;
+
+	animation-name: mon_slide;
+    animation-duration: 8s;
+    animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	/* marche en 2 lignes :
+	-webkit-animation: mon_slide 8s ease-in-out 2s infinite alternate;
+	animation: mon_slide 8s ease-in-out 2s infinite alternate;
+	*/
+}
+@-webkit-keyframes mon_slide {
+    0%   {background-position: 0;}
+    25%  {background-position: -400px;}
+    50%  {background-position: -800px;}
+    100% {background-position: -1200px;}
+}
+@keyframes mon_slide {
+    0%   {background-position: 0;}
+    25%  {background-position: -400px;}
+    50%  {background-position: -800px;}
+    100% {background-position: -1200px;}
+
+}
